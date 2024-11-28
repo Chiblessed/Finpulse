@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer base{
+  body{
+@apply scroll-smooth
+  }
+}
+@layer utilities{
+    .img-shadow {
+        filter: drop-shadow(40px 50px 25px #0f1115);
+      }
+    
+      .img-shadow2 {
+        filter: drop-shadow(10px 30px 15px #3030307a);
+      }
+}
+@font-face{
+  font-family: 'Helvetica'; 
+  src: url('./assets/fonts/Helvetica.ttf'); /* Adjust path as necessary */
+font-weight: normal;
+font-style: normal;
+}
